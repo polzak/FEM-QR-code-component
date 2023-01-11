@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700');
+
+$font-primary: 'Outfit', sans-serif;
+$font-size-base: 15px;
+$font-size-attr: 11px;
+$font-wght-regular: 400;
+$font-wght-bold: 700;
+
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+$color-attr: hsl(228, 45%, 44%);
+
+$layout-bp-mobile: 375px;
+$layout-bp-desktop: 1440px;
+
+@media (min-width: $layout-bp-mobile) {
+
+}
+
+body {
+    font-size: $font-size-base;
+    font-family: $font-primary;
+}
+
+.attribution { 
+    font-size: $font-size-attr; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: $color-attr; 
+}
+
+
+
