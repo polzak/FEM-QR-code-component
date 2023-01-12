@@ -10,10 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -35,6 +32,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - SCSS
 - Flexbox
+
+### What I learned
+
+ - Every site should always have a main element not only for semantic purposes but also to help assistive technology find the main content of your content. For this challenge, it will serves as the component’s container. 
+ - [MDN Main Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
+ - Avoid skipping heading levels. Always start with the h1 (which can only be used once) and you will go down the hierarchy level depending on the heading’s importance.
+ - The alt tag description for the “QR image” needs to be improved upon. It needs to tell screen reader users what it is and where it will take them to when they scan it.
+ - change the height to min-height in your body element to improve your component's responsiveness. 
+ - Change the width to max-width in your component’s container to make it responsive.
 
 ## Author
 

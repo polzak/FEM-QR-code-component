@@ -30,9 +30,8 @@ body, div {
     padding: 0;
 }
 
-.container {
-    width: 100%;
-    height: 100vh;
+body {
+    min-height: 100vh;
     background-color: $light-gray;
     display: flex;
     flex-direction: column;
@@ -42,7 +41,7 @@ body, div {
 
 .box {
     background-color: $white;
-    width: 320 - ($base-margin + 12);
+    max-width: 320 - ($base-margin + 12);
     margin: $base-margin + 12;
     padding: $base-padding;
     display: flex;
@@ -59,8 +58,9 @@ body, div {
     border-radius: $base-radius;
 }
 
-.box h2 {
+.box h1 {
     font-weight: $font-wght-bold;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -78,6 +78,3 @@ body, div {
 .attribution a { 
     color: $color-attr; 
 }
-
-
-
