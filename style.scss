@@ -34,7 +34,6 @@ body {
     min-height: 100vh;
     background-color: $light-gray;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -56,6 +55,7 @@ body {
 .box img {
     width: 100%;
     border-radius: $base-radius;
+    margin-bottom: $base-margin / 2;
 }
 
 .box h1 {
